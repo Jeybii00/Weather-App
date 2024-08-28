@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+<!-- CSS Stylesheets -->
+<link rel="icon" href="images/cloudy-day.png"/>
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/mediaquiries.css">
+
+
+<title>Weather App</title>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="logo">
+        <h1 class="header__title">
+            <img src="images/fair-cloud.png" 
+            alt="logo-icon" 
+            class="logo__icon"> Weather Forcast</h1>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false">
+        <button><img src="images/search.png" alt="seach-icon"></button>
+    </div>
+    <div class="error">
+        <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+        <img src="images/fair-cloud.png" class="weather__icon" alt="image-x">
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">Europe</h2>
+        <div class="details__text">
+            <div class="col">
+                <img src="images/humidity-weather.png" class="weather__icon mood__icon" alt="humid-image">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="images/windy.png" class="weather__icon mood__icon" alt="windy-image">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Copyright &#169; 2024 Weather App. All Rights Reserved</p>
+</footer>
+
+</body>
+
+<!-- JS codes -->
+<script src="js/main.js"></script>

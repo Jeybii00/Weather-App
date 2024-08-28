@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/earth-background.jpg);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.card{
+    width: 90%;
+    max-width: 600px;
+    color: #fff;
+    margin: 10rem auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    backdrop-filter: blur(10px) saturate(89%);
+    -webkit-backdrop-filter: blur(10px) saturate(89%);
+    background-color: rgba(17, 25, 40, 0.49);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo__icon{
+    width: 80px;
+    height: 80px;
+    margin-right: -40px;
+}
+
+.header__title{
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather__icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 1;
+    font-weight: 400;
+}
+
+.details__text{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.col img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff0000;
+    display: none;
+}
+
+footer{
+    height: 10vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 20px;
+}
