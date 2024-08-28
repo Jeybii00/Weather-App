@@ -8,7 +8,7 @@ Weather App with API Integration
 </h3>
 <br>
 <p align="center">
-A simple weather project that can provide weather information in different countries with the help of API integration
+A simple weather project that can provide weather information in different countries.
 </p>
 
 <br>
